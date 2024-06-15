@@ -1,0 +1,129 @@
+/* Estilos personalizados para a página de Reservas Dev André */
+body {
+    background-image: -o-linear-gradient(rgb(255, 1, 119), rgb(12, 12, 54));
+    background-image: linear-gradient(to right, rgb(240, 79, 139), rgb(243, 124, 112), rgb(245, 172, 85));
+}
+
+
+.carousel-item img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
+    border: 10px solid #d0cbcb;
+    border-radius: 40px
+}
+
+/* Ajusta o tamanho do carrossel */
+.carousel {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+
+h1 {
+    color: #ffffff;
+}
+
+
+.form-label, .form-control {
+    color: #ffffff;
+}
+
+.btn-primary, .btn-secondary {
+    margin-top: 10px;
+    padding: 10px 10px;
+    
+    font-size: 25px;
+   
+    background-image: linear-gradient(to right, rgba(209, 5, 5, 0.548), rgb(240, 79, 139), rgb(243, 124, 112), rgb(245, 172, 85));
+    color: rgb(12, 12, 54);
+}
+
+.btn {
+    background-image: linear-gradient(to right, rgba(2, 0, 139, 0.788), rgba(209, 5, 5, 0.548), rgb(240, 79, 139), rgb(243, 124, 112), rgb(245, 172, 85));
+    color: rgb(12, 12, 54);
+}
+
+
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 28px;
+}
+
+.nav-ite {
+    color: rgb(11, 143, 138);
+}
+
+
+
+.container-navbar {
+    background-image: -o-linear-gradient(rgb(53, 6, 6), rgb(12, 12, 54));
+    background-image: linear-gradient(to left, rgb(53, 6, 6), rgb(12, 12, 54));
+}
+
+.container-fluid {
+
+    background-image: linear-gradient(to left, rgba(209, 5, 5, 0.548), rgba(2, 0, 139, 0.788));
+}
+
+.footer {
+    background-color: #3b29298f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    border-top: 5px solid #e6e6e6;
+    border-bottom: 5px solid #e6e6e6;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    
+    main {
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block; 
+    }
+
+    
+    .menu-toggle:checked + nav {
+        display: block;
+    }
+
+    
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    
+    .hidden-mobile {
+        display: none;
+    }
+}

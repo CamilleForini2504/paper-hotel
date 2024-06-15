@@ -1,0 +1,167 @@
+/* Estilos personalizados para a página Quem Somos Dev André */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to right, #F04D8B, rgb(240, 79, 139), #F37176, rgb(243, 124, 112), rgb(245, 172, 85), #F8BC4D);
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    /* Ajuste navbar */
+}
+
+.carousel-item img {
+    max-height: 800px;
+    /* Ajuste da altura do carrossel */
+    width: 100%;
+    border-radius: 5px;
+    bottom: 0;
+    /* Posição na parte inferior */
+    border-top: 5px solid #e6e6e6;
+    /* Borda superior */
+    border-bottom: 10px solid #e6e6e6;
+    /* Borda inferior */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    /* Fundo semitransparente das legendas */
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 0;
+    /* Posição na parte inferior */
+}
+
+.btn-back {
+    margin-top: 0px;
+    padding: 10px 30px;
+    font-size: 30px;
+
+}
+
+/* Outros estilos */
+.form-label, .form-control {
+    color: #ffffff;
+}
+
+.btn {
+    background-image: linear-gradient(to left, rgba(2, 0, 139, 0.788), rgba(209, 5, 5, 0.548), rgb(240, 79, 139), rgb(243, 124, 112), rgb(245, 172, 85));
+    color: rgb(12, 12, 54);
+    margin-top: 0px;
+    padding: 10px 30px;
+    /* Aqui ajusta o padding do botão de reservar */
+    font-size: 30px;
+    /* Aqui ajusta o tamanho da fonte do botão reservar */
+}
+
+.btn-outline-success {
+    background-image: linear-gradient(to left, rgba(209, 5, 5, 0.548), rgba(2, 0, 139, 0.788), rgb(240, 79, 139), rgb(243, 124, 112), rgb(245, 172, 85));
+    color: rgb(12, 12, 54);
+
+
+}
+
+.nav-link {
+    color: white;
+    font-size: 28px;
+}
+
+.nav-item {
+    color: rgb(11, 143, 138);
+}
+
+.container-fluid {
+    background-image: linear-gradient(to left, rgba(209, 5, 5, 0.548), rgba(2, 0, 139, 0.788));
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.texto {
+    background: rgba(182, 163, 163, 0.5);
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #160101;
+    bottom: 0;
+    border-top: 5px solid #e6e6e6;
+    border-bottom: 5px solid #e6e6e6;
+    justify-content: center;
+}
+
+h1 {
+    background: rgba(182, 163, 163, 0.5);
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.5;
+    color: #311010;
+    /* Aqui altera a cor do texto conforme necessário */
+    bottom: 0;
+    /* Posição na parte inferior */
+    border-top: 5px solid #e6e6e6;
+    /* Borda superior */
+    border-bottom: 5px solid #e6e6e6;
+    /* Borda inferior */
+
+}
+
+p, h3, h4, h5 {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #3b29298f;
+    /* Cor de fundo do rodapé */
+    color: #fff;
+    /* Cor do texto */
+    padding: 20px 0;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    bottom: 0;
+    /* Posição na parte inferior */
+    border-top: 5px solid #e6e6e6;
+    /* Borda superior */
+    border-bottom: 5px solid #e6e6e6;
+    /* Borda inferior */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    
+    main {
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block; 
+    }
+
+    
+    .menu-toggle:checked + nav {
+        display: block;
+    }
+
+    
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    
+    .hidden-mobile {
+        display: none;
+    }
+}

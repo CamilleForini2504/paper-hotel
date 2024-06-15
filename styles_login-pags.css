@@ -1,0 +1,137 @@
+/* Estilos personalizados para a página de login Dev André */
+body {
+    background: url(imagens-hotel/HPG-rosa-preenchido.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    /* Define a altura da página como 100% da altura da viewport */
+    display: flex;
+    /* Usado para centralizar o conteúdo */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    margin: 0;
+    /* Remove margens */
+    margin: 0;
+
+    z-index: -1;
+
+}
+
+.container {
+    background-image: linear-gradient(to left, rgba(209, 5, 5, 0.397), rgba(2, 0, 139, 0.329), rgba(240, 79, 138, 0.349), rgba(243, 123, 112, 0.479), rgba(245, 173, 85, 0.438));
+    color: rgb(12, 12, 54), rgba(255, 255, 255, 0.8);
+    /* Fundo branco semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-primary:hover {
+    background-color: #495057;
+    border-color: #495057;
+}
+
+
+
+
+h1 {
+    color: #ffffff;
+}
+
+.form-label, .form-control {
+    color: #ffffff;
+}
+
+.btn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+    /* Centraliza o grupo de botões horizontalmente */
+    margin-top: 5px;
+    padding: 5px 5px;
+    /* Ajuste o padding do botão de reservar */
+    font-size: 20px;
+    /* Ajuste o tamanho da fonte do botão reservar */
+    background-image: linear-gradient(to left, rgba(209, 5, 5, 0.548), rgba(2, 0, 139, 0.788), rgb(240, 79, 139), rgb(243, 124, 112), rgb(245, 172, 85));
+    color: rgb(12, 12, 54);
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #3b29298f;
+    /* Cor de fundo do rodapé */
+    color: #fff;
+    /* Cor do texto */
+    padding: 20px 0;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    bottom: 0;
+    /* Posição na parte inferior */
+    border-top: 5px solid #e6e6e6;
+    /* Borda superior */
+    border-bottom: 5px solid #e6e6e6;
+    /* Borda inferior */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    
+    main {
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block; 
+    }
+
+    
+    .menu-toggle:checked + nav {
+        display: block;
+    }
+
+    
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    
+    .hidden-mobile {
+        display: none;
+    }
+}
