@@ -1,9 +1,9 @@
 <?php
 // Configuração da base de dados
 $db_host = 'localhost';
-$db_username = 'root';
-$db_password = '';
-$db_name = 'hotel_page';
+$db_username = 'root'; // usuario padrão do banco de dados
+$db_password = ''; // quando não definida, a senha do root é vazia
+$db_name = 'hotel_page'; //Nome do banco de dados
 
 // Conecta ao banco de dados
 $conn = mysqli_connect($db_host, $db_username, $db_password, $db_name);
